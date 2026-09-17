@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           starline theme
+@namespace		https://github.com/blaze547385/starlineforumtheme
+@version        0.1
+@description    Better member colours for starline forum
+@author         Gemini
+EOT;
+}
+==/UserStyle== */
+
+/* Premium */
+.username--style6 {
+    color: #e61515 !important;
+}
+
+/* Member */
+.username--style2 {
+    color: #60a0dc !important;
+}
+
+/* Banned - Targets style2 specifically when the text is Banned */
+.username--style2:is(:text("Banned")) {
+    color: #ccc !important;
+}
+
+/* Alpha */
+.username--style7 {
+    color: #fc0 !important;
+}
+
+/* Admin */
+.username--style3 {
+    color: #b4e61e !important;
+}
